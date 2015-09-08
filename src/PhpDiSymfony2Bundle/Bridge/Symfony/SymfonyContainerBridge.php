@@ -7,7 +7,7 @@
  * @license   http://www.opensource.org/licenses/mit-license.php MIT (see the LICENSE file)
  */
 
-namespace DI\Bridge\Symfony;
+namespace PhpDiSymfony2Bundle\Bridge\Symfony;
 
 use DI\NotFoundException;
 use Symfony\Component\DependencyInjection\Container as SymfonyContainer;

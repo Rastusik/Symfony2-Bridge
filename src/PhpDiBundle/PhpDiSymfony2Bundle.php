@@ -1,8 +1,6 @@
 <?php
 /**
  * @author     mfris
- * @copyright  Pixel federation
- * @license    Internal use only
  */
 
 namespace PhpDiBundle;

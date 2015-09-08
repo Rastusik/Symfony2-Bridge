@@ -5,7 +5,7 @@
  * @license    Internal use only
  */
 
-namespace PhpDiSymfony2Bundle;
+namespace PhpDiBundle;
 
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 
@@ -15,6 +15,6 @@ use Symfony\Component\HttpKernel\Bundle\Bundle;
  * @author  mfris
  * @package PhpDiSymfony2Bundle
  */
-class PhpDiSymfony2Bundle extends Bundle
+class PhpDiBundle extends Bundle
 {
 }

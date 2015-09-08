@@ -12,7 +12,7 @@
  * file that was distributed with this source code.
  */
 
-namespace PhpDiSymfony2Bundle\DependencyInjection;
+namespace PhpDiBundle\DependencyInjection;
 
 use Symfony\Component\DependencyInjection\ContainerBuilder;
 use Symfony\Component\HttpKernel\DependencyInjection\Extension;
@@ -22,7 +22,7 @@ use Symfony\Component\HttpKernel\DependencyInjection\Extension;
  *
  * @author Lukas Kahwe Smith <smith@pooteeweet.org>
  */
-class PhpDiSymfony2Extension extends Extension
+class PhpDiExtension extends Extension
 {
     /**
      * Responds to the migrations configuration parameter.
@@ -53,6 +53,6 @@ class PhpDiSymfony2Extension extends Extension
 
     public function getNamespace()
     {
-        return 'http://symfony.com/schema/dic/php-di/symfony2';
+        return 'http://symfony.com/schema/dic/php-di';
     }
 }
